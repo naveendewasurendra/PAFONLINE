@@ -13,6 +13,7 @@ public class Product {
 	private String madein;
 	private float price;
 	private float qty;
+	private String origin;
 	protected Product() {
 		
 	}
@@ -53,6 +54,12 @@ public class Product {
 	}
 	public void setQty(float qty) {
 		this.qty = qty;
+	}
+	public float getOrigin() {
+		return origin;
+	}
+	public void setOrigin(String origin) {
+		this.origin = origin;
 	}
 	
 }
