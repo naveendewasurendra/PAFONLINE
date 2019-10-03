@@ -12,6 +12,7 @@ public class Product {
 	private String brand;
 	private String madein;
 	private float price;
+	private float qty;
 	protected Product() {
 		
 	}
@@ -46,6 +47,12 @@ public class Product {
 	}
 	public void setPrice(float price) {
 		this.price = price;
+	}
+	public float getQty() {
+		return qty;
+	}
+	public void setQty(float qty) {
+		this.qty = qty;
 	}
 	
 }
